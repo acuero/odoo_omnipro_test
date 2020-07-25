@@ -41,7 +41,7 @@ class SpotifyCliente(models.Model):
         resultado = super(SpotifyCliente, self).create(vals_list)
 
         if cambios:
-            self.recomendar_canciones(resultado)
+            self.recomendar_canciones(resultado.id, resultado.generos_ids.ids)
         
         return resultado
     
@@ -51,8 +51,9 @@ class SpotifyCliente(models.Model):
     def write(self, vals_list):
         cambios   = self.validacion_cambios_generos(vals_list)
         resultado = super(SpotifyCliente, self).write(vals_list)
+
         if cambios:
-            self.recomendar_canciones(vals_list)
+            self.recomendar_canciones(self.id, vals_list['generos_ids'][0][2])
         
         return resultado
 
@@ -65,7 +66,6 @@ class SpotifyCliente(models.Model):
         """
         if 'generos_ids' not in vals_list:
             return False
-
         
 
         previos = self.generos_ids.ids
@@ -78,11 +78,17 @@ class SpotifyCliente(models.Model):
 
 
 
-    def recomendar_canciones(self, vals_list):
+    def recomendar_canciones(self, cliente_id, generos_ids):
         """
         Método que obtiene los recomendados desde el api de spotify.
         """
-        seed_genres    = self.obtener_spotify_seed_genres(vals_list.generos_ids.ids)
+        _logger.debug("recomendar_canciones.cliente_id: %s", cliente_id)
+        _logger.debug("recomendar_canciones.generos_ids: %s", generos_ids)
+
+        # on-write: {'generos_ids': [[6, False, [2, 5, 3]]]}
+        # on-create: recomendar_canciones.vals_list: spotify.cliente(3,)
+
+        seed_genres    = self.obtener_spotify_seed_genres(generos_ids)
         spotify        = Spotify()
         spotify_tracks = spotify.obtener_recomendados(seed_genres)
         
@@ -101,7 +107,7 @@ class SpotifyCliente(models.Model):
 
                 recomendacion = self.env['spotify.recomendacion'].create({
                     'cancion_id': cancion.id,
-                    'cliente_id': vals_list.id
+                    'cliente_id': cliente_id
                 })
 
                 recomendados.append(recomendacion.id)
