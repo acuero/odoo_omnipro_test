@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_backend_genero_musical" inherit_id="web.assets_backend" name="Generos Musicales Asset">        
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/my_spotify/static/src/js/syncgeneros_btn.js"></script>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Menú principal de apps -->
+    <act_window
+        id="spotify_genero_action"
+        name="MySpotify / Géneros musicales"
+        res_model="spotify.genero" />
+    
+    
+    <menuitem
+        id="spotify_genero_menu"
+        name="MySpotify / Géneros musicales"
+        action="spotify_genero_action"
+        parent=""
+        sequence="10" />
+    <!-- ./Menú principal de apps -->
+
+
+    <!-- tree view o vista de lista -->
+    <record id="spotify_genero_view_tree" model="ir.ui.view">
+        <field name="name">Generos Musicales</field>
+        <field name="model">spotify.genero</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="create_date" />
+                <field name="write_date" />
+            </tree>
+        </field>
+    </record>
+    <!-- ./tree view o vista de lista -->
+    
+
+    <!-- <data>
+        Data records go here
+    </data> -->
+</odoo>

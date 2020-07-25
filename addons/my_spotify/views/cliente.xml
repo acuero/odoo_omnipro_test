@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Menú principal de apps -->
+    <act_window
+        id="spotify_cliente_action"
+        name="MySpotify / Clientes"
+        res_model="spotify.cliente" />
+    
+    
+    <menuitem
+        id="spotify_cliente_menu"
+        name="MySpotify / Clientes"
+        action="spotify_cliente_action"
+        parent=""
+        sequence="11" />
+    <!-- ./Menú principal de apps -->
+
+
+    <!-- tree view o vista de lista -->
+    <record id="spotify_cliente_view_tree" model="ir.ui.view">
+        <field name="name">Clientes</field>
+        <field name="model">spotify.cliente</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="apellidos" />
+                <field name="email" />
+                <field name="create_date" />
+            </tree>
+        </field>
+    </record>
+    <!-- ./tree view o vista de lista -->
+
+
+    <!-- view form -->
+    <record id="spotify_cliente_view_form" model="ir.ui.view">
+        <field name="name">Clientes Form</field>
+        <field name="model">spotify.cliente</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="apellidos" />
+                    </group>
+                    <group>
+                        <field name="email" />
+                        <field name="generos_ids" widget="many2many_tags" />
+                    </group>
+                    <notebook>
+                        <page name="canciones_recomendadas" string="Canciones recomendadas">
+                            <field name="recomendaciones" readonly="1">
+                                <tree>
+                                    <field name="cancion_id" />
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- ./view form -->
+    
+
+    <!-- <data>
+        Data records go here
+    </data> -->
+</odoo>

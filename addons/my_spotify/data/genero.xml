@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="spotify_genero_1" model="spotify.genero">
+            <field name="name">acoustic</field>
+        </record>
+        <record id="spotify_genero_2" model="spotify.genero">
+            <field name="name">afrobeat</field>
+        </record>
+        <record id="spotify_genero_3" model="spotify.genero">
+            <field name="name">bluegrass</field>
+        </record>
+        <record id="spotify_genero_4" model="spotify.genero">
+            <field name="name">salsa</field>
+        </record>
+        <record id="spotify_genero_5" model="spotify.genero">
+            <field name="name">summer</field>
+        </record>
+        <record id="spotify_genero_6" model="spotify.genero">
+            <field name="name">reggae</field>
+        </record>
+        <record id="spotify_genero_7" model="spotify.genero">
+            <field name="name">rock</field>
+        </record>
+        <record id="spotify_genero_8" model="spotify.genero">
+            <field name="name">soul</field>
+        </record>
+        <record id="spotify_genero_9" model="spotify.genero">
+            <field name="name">metal</field>
+        </record>
+        <record id="spotify_genero_10" model="spotify.genero">
+            <field name="name">house</field>
+        </record>
+        <record id="spotify_genero_11" model="spotify.genero">
+            <field name="name">movies</field>
+        </record>
+        <record id="spotify_genero_12" model="spotify.genero">
+            <field name="name">funk</field>
+        </record>
+        <record id="spotify_genero_13" model="spotify.genero">
+            <field name="name">grunge</field>
+        </record>
+        <record id="spotify_genero_14" model="spotify.genero">
+            <field name="name">k-pop</field>
+        </record>
+        <record id="spotify_genero_15" model="spotify.genero">
+            <field name="name">opera</field>
+        </record>
+        <record id="spotify_genero_16" model="spotify.genero">
+            <field name="name">trance</field>
+        </record>
+        <record id="spotify_genero_17" model="spotify.genero">
+            <field name="name">samba</field>
+        </record>
+        <record id="spotify_genero_18" model="spotify.genero">
+            <field name="name">brazil</field>
+        </record>
+        <record id="spotify_genero_19" model="spotify.genero">
+            <field name="name">country</field>
+        </record>
+        <record id="spotify_genero_20" model="spotify.genero">
+            <field name="name">dance</field>
+        </record>
+
+    </data>
+</odoo>

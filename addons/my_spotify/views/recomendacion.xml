@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Menú principal de apps -->
+    <act_window
+        id="spotify_recomendacion_action"
+        name="MySpotify / Recomendaciones"
+        res_model="spotify.recomendacion" />
+    
+    
+    <menuitem
+        id="spotify_recomendacion_menu"
+        name="MySpotify / Recomendaciones"
+        action="spotify_recomendacion_action"
+        parent=""
+        sequence="13" />
+    <!-- ./Menú principal de apps -->
+
+
+    <!-- tree view o vista de lista -->
+    <record id="spotify_recomendacion_view_tree" model="ir.ui.view">
+        <field name="name">Recomendaciones</field>
+        <field name="model">spotify.recomendacion</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="cancion_id" />
+                <field name="cliente_id" />
+                <field name="create_date" />
+            </tree>
+        </field>
+    </record>
+    <!-- ./tree view o vista de lista -->
+    
+
+    <!-- <data>
+        Data records go here
+    </data> -->
+</odoo>

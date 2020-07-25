@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_spotify_genero_user,spotify.genero.user,model_spotify_genero,base.group_user,1,1,1,0
+access_spotify_genero_admin,spotify.genero.admin,model_spotify_genero,base.group_system,1,0,0,0
+access_spotify_cliente_user,spotify.cliente.user,model_spotify_cliente,base.group_user,1,1,1,0
+access_spotify_cliente_admin,spotify.cliente.admin,model_spotify_cliente,base.group_system,1,0,0,0
+access_spotify_cancion_user,spotify.cancion.user,model_spotify_cancion,base.group_user,1,1,1,0
+access_spotify_cancion_admin,spotify.cancion.admin,model_spotify_cancion,base.group_system,1,0,0,0
+access_spotify_recomendacion_user,spotify.recomendacion.user,model_spotify_recomendacion,base.group_user,1,1,1,0
+access_spotify_recomendacion_admin,spotify.recomendacion.admin,model_spotify_recomendacion,base.group_system,1,0,0,0

@@ -1,0 +1,887 @@
+curl -X "GET" "https://api.spotify.com/v1/recommendations?limit=5&seed_genres=acoustic%2Cafrobeat" -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer BQAr33FHgt9lPkGCGPieYtxymCwmtAzPZdfOHxpo_A-uRjFNIxWOyEx7y9V4r46U3QYbim_dBuOZM-lKg_PdnxqHnAeFyR5gzffiOPieJ-WLYdnpuC8n720iinFHmhP4rTAeh3vQkFnj"
+
+
+{
+  "tracks": [
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7CQwac16i1W5ej8YpuL3dv"
+            },
+            "href": "https://api.spotify.com/v1/artists/7CQwac16i1W5ej8YpuL3dv",
+            "id": "7CQwac16i1W5ej8YpuL3dv",
+            "name": "Boyce Avenue",
+            "type": "artist",
+            "uri": "spotify:artist:7CQwac16i1W5ej8YpuL3dv"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AE",
+          "AL",
+          "AR",
+          "AT",
+          "AU",
+          "BA",
+          "BE",
+          "BG",
+          "BH",
+          "BO",
+          "BR",
+          "BY",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "DZ",
+          "EC",
+          "EE",
+          "EG",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HR",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IN",
+          "IS",
+          "IT",
+          "JO",
+          "JP",
+          "KW",
+          "KZ",
+          "LB",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MA",
+          "MC",
+          "MD",
+          "ME",
+          "MK",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "OM",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PS",
+          "PT",
+          "PY",
+          "QA",
+          "RO",
+          "RS",
+          "RU",
+          "SA",
+          "SE",
+          "SG",
+          "SI",
+          "SK",
+          "SV",
+          "TH",
+          "TN",
+          "TR",
+          "TW",
+          "UA",
+          "US",
+          "UY",
+          "VN",
+          "XK",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/16JVqQaupaBt030iKiD5S1"
+        },
+        "href": "https://api.spotify.com/v1/albums/16JVqQaupaBt030iKiD5S1",
+        "id": "16JVqQaupaBt030iKiD5S1",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273f4d160a1af71cf538d2d3eed",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02f4d160a1af71cf538d2d3eed",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851f4d160a1af71cf538d2d3eed",
+            "width": 64
+          }
+        ],
+        "name": "Cover Collaborations, Vol. 1",
+        "release_date": "2010-12-06",
+        "release_date_precision": "day",
+        "total_tracks": 0,
+        "type": "album",
+        "uri": "spotify:album:16JVqQaupaBt030iKiD5S1"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7CQwac16i1W5ej8YpuL3dv"
+          },
+          "href": "https://api.spotify.com/v1/artists/7CQwac16i1W5ej8YpuL3dv",
+          "id": "7CQwac16i1W5ej8YpuL3dv",
+          "name": "Boyce Avenue",
+          "type": "artist",
+          "uri": "spotify:artist:7CQwac16i1W5ej8YpuL3dv"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6KFWlsiHktGwAs9OdPbHgn"
+          },
+          "href": "https://api.spotify.com/v1/artists/6KFWlsiHktGwAs9OdPbHgn",
+          "id": "6KFWlsiHktGwAs9OdPbHgn",
+          "name": "DeStorm Power",
+          "type": "artist",
+          "uri": "spotify:artist:6KFWlsiHktGwAs9OdPbHgn"
+        }
+      ],
+      "available_markets": [],
+      "disc_number": 1,
+      "duration_ms": 175883,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USM951100009"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/4Ljd15LovCmrdLiRGuyH3d"
+      },
+      "href": "https://api.spotify.com/v1/tracks/4Ljd15LovCmrdLiRGuyH3d",
+      "id": "4Ljd15LovCmrdLiRGuyH3d",
+      "is_local": false,
+      "name": "Airplanes (feat. DeStorm Power)",
+      "popularity": 0,
+      "preview_url": null,
+      "track_number": 9,
+      "type": "track",
+      "uri": "spotify:track:4Ljd15LovCmrdLiRGuyH3d"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3gd8FJtBJtkRxdfbTu19U2"
+            },
+            "href": "https://api.spotify.com/v1/artists/3gd8FJtBJtkRxdfbTu19U2",
+            "id": "3gd8FJtBJtkRxdfbTu19U2",
+            "name": "Mumford & Sons",
+            "type": "artist",
+            "uri": "spotify:artist:3gd8FJtBJtkRxdfbTu19U2"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AE",
+          "AL",
+          "AR",
+          "AT",
+          "AU",
+          "BA",
+          "BE",
+          "BG",
+          "BH",
+          "BO",
+          "BR",
+          "BY",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "DZ",
+          "EC",
+          "EE",
+          "EG",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HR",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IN",
+          "IS",
+          "IT",
+          "JO",
+          "JP",
+          "KW",
+          "KZ",
+          "LB",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MA",
+          "MC",
+          "MD",
+          "ME",
+          "MK",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "OM",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PS",
+          "PT",
+          "PY",
+          "QA",
+          "RO",
+          "RS",
+          "RU",
+          "SA",
+          "SE",
+          "SG",
+          "SI",
+          "SK",
+          "SV",
+          "TH",
+          "TN",
+          "TR",
+          "TW",
+          "UA",
+          "US",
+          "UY",
+          "VN",
+          "XK",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4EnpeGmIkEf8nAaBLLTBZn"
+        },
+        "href": "https://api.spotify.com/v1/albums/4EnpeGmIkEf8nAaBLLTBZn",
+        "id": "4EnpeGmIkEf8nAaBLLTBZn",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273c30dd35086a80c5f19a6133a",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02c30dd35086a80c5f19a6133a",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851c30dd35086a80c5f19a6133a",
+            "width": 64
+          }
+        ],
+        "name": "Sigh No More",
+        "release_date": "2009",
+        "release_date_precision": "year",
+        "total_tracks": 0,
+        "type": "album",
+        "uri": "spotify:album:4EnpeGmIkEf8nAaBLLTBZn"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/3gd8FJtBJtkRxdfbTu19U2"
+          },
+          "href": "https://api.spotify.com/v1/artists/3gd8FJtBJtkRxdfbTu19U2",
+          "id": "3gd8FJtBJtkRxdfbTu19U2",
+          "name": "Mumford & Sons",
+          "type": "artist",
+          "uri": "spotify:artist:3gd8FJtBJtkRxdfbTu19U2"
+        }
+      ],
+      "available_markets": [],
+      "disc_number": 1,
+      "duration_ms": 247880,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "GBUM70909104"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/5x86JP3jRMHIowmgZlhTRX"
+      },
+      "href": "https://api.spotify.com/v1/tracks/5x86JP3jRMHIowmgZlhTRX",
+      "id": "5x86JP3jRMHIowmgZlhTRX",
+      "is_local": false,
+      "name": "After The Storm",
+      "popularity": 0,
+      "preview_url": null,
+      "track_number": 12,
+      "type": "track",
+      "uri": "spotify:track:5x86JP3jRMHIowmgZlhTRX"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6CFWXwqEBUi0UFoIIxmg9h"
+            },
+            "href": "https://api.spotify.com/v1/artists/6CFWXwqEBUi0UFoIIxmg9h",
+            "id": "6CFWXwqEBUi0UFoIIxmg9h",
+            "name": "Cheikh Lô",
+            "type": "artist",
+            "uri": "spotify:artist:6CFWXwqEBUi0UFoIIxmg9h"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AE",
+          "AL",
+          "AR",
+          "AT",
+          "AU",
+          "BA",
+          "BE",
+          "BG",
+          "BH",
+          "BO",
+          "BR",
+          "BY",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "DZ",
+          "EC",
+          "EE",
+          "EG",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HR",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IN",
+          "IS",
+          "IT",
+          "JO",
+          "JP",
+          "KW",
+          "KZ",
+          "LB",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MA",
+          "MC",
+          "MD",
+          "ME",
+          "MK",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "OM",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PS",
+          "PT",
+          "PY",
+          "QA",
+          "RO",
+          "RS",
+          "RU",
+          "SA",
+          "SE",
+          "SG",
+          "SI",
+          "SK",
+          "SV",
+          "TH",
+          "TN",
+          "TR",
+          "TW",
+          "UA",
+          "US",
+          "UY",
+          "VN",
+          "XK",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4bgrysSk4I1aEPWPJemA43"
+        },
+        "href": "https://api.spotify.com/v1/albums/4bgrysSk4I1aEPWPJemA43",
+        "id": "4bgrysSk4I1aEPWPJemA43",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27379a7e875cf7ecb3f91b648ec",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0279a7e875cf7ecb3f91b648ec",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485179a7e875cf7ecb3f91b648ec",
+            "width": 64
+          }
+        ],
+        "name": "Jamm",
+        "release_date": "2010-08-23",
+        "release_date_precision": "day",
+        "total_tracks": 0,
+        "type": "album",
+        "uri": "spotify:album:4bgrysSk4I1aEPWPJemA43"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6CFWXwqEBUi0UFoIIxmg9h"
+          },
+          "href": "https://api.spotify.com/v1/artists/6CFWXwqEBUi0UFoIIxmg9h",
+          "id": "6CFWXwqEBUi0UFoIIxmg9h",
+          "name": "Cheikh Lô",
+          "type": "artist",
+          "uri": "spotify:artist:6CFWXwqEBUi0UFoIIxmg9h"
+        }
+      ],
+      "available_markets": [],
+      "disc_number": 1,
+      "duration_ms": 271053,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "FR6V81943137"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/4ls2EezIHWWQDLubJzM88f"
+      },
+      "href": "https://api.spotify.com/v1/tracks/4ls2EezIHWWQDLubJzM88f",
+      "id": "4ls2EezIHWWQDLubJzM88f",
+      "is_local": false,
+      "name": "Il N'est Jamais Trop Tard",
+      "popularity": 0,
+      "preview_url": null,
+      "track_number": 3,
+      "type": "track",
+      "uri": "spotify:track:4ls2EezIHWWQDLubJzM88f"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+            },
+            "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
+            "id": "1uNFoZAHBGtllmzznpCI3s",
+            "name": "Justin Bieber",
+            "type": "artist",
+            "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AE",
+          "AL",
+          "AR",
+          "AT",
+          "AU",
+          "BA",
+          "BE",
+          "BG",
+          "BH",
+          "BO",
+          "BR",
+          "BY",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "DZ",
+          "EC",
+          "EE",
+          "EG",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HR",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IN",
+          "IS",
+          "IT",
+          "JO",
+          "JP",
+          "KW",
+          "KZ",
+          "LB",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MA",
+          "MC",
+          "MD",
+          "ME",
+          "MK",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "OM",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PS",
+          "PT",
+          "PY",
+          "QA",
+          "RO",
+          "RS",
+          "RU",
+          "SA",
+          "SE",
+          "SG",
+          "SI",
+          "SK",
+          "SV",
+          "TH",
+          "TN",
+          "TR",
+          "TW",
+          "UA",
+          "US",
+          "UY",
+          "VN",
+          "XK",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7BWK3eXcbAdwYeulyQj5Kw"
+        },
+        "href": "https://api.spotify.com/v1/albums/7BWK3eXcbAdwYeulyQj5Kw",
+        "id": "7BWK3eXcbAdwYeulyQj5Kw",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273adc5af517133ca221870f112",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02adc5af517133ca221870f112",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851adc5af517133ca221870f112",
+            "width": 64
+          }
+        ],
+        "name": "Believe (Deluxe Edition)",
+        "release_date": "2012-01-01",
+        "release_date_precision": "day",
+        "total_tracks": 0,
+        "type": "album",
+        "uri": "spotify:album:7BWK3eXcbAdwYeulyQj5Kw"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+          },
+          "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
+          "id": "1uNFoZAHBGtllmzznpCI3s",
+          "name": "Justin Bieber",
+          "type": "artist",
+          "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+        }
+      ],
+      "available_markets": [],
+      "disc_number": 1,
+      "duration_ms": 213560,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USUM71205369"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/3P1S4UtNtXe67piyERXijj"
+      },
+      "href": "https://api.spotify.com/v1/tracks/3P1S4UtNtXe67piyERXijj",
+      "id": "3P1S4UtNtXe67piyERXijj",
+      "is_local": false,
+      "name": "Out Of Town Girl",
+      "popularity": 0,
+      "preview_url": null,
+      "track_number": 14,
+      "type": "track",
+      "uri": "spotify:track:3P1S4UtNtXe67piyERXijj"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4C50EbCS11M0VbGyH3OfLt"
+            },
+            "href": "https://api.spotify.com/v1/artists/4C50EbCS11M0VbGyH3OfLt",
+            "id": "4C50EbCS11M0VbGyH3OfLt",
+            "name": "Bahamas",
+            "type": "artist",
+            "uri": "spotify:artist:4C50EbCS11M0VbGyH3OfLt"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AE",
+          "AL",
+          "AR",
+          "AT",
+          "AU",
+          "BA",
+          "BE",
+          "BG",
+          "BH",
+          "BO",
+          "BR",
+          "BY",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "DZ",
+          "EC",
+          "EE",
+          "EG",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HR",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IN",
+          "IS",
+          "IT",
+          "JO",
+          "JP",
+          "KW",
+          "KZ",
+          "LB",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MA",
+          "MC",
+          "MD",
+          "ME",
+          "MK",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "OM",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PS",
+          "PT",
+          "PY",
+          "QA",
+          "RO",
+          "RS",
+          "RU",
+          "SA",
+          "SE",
+          "SG",
+          "SI",
+          "SK",
+          "SV",
+          "TH",
+          "TN",
+          "TR",
+          "TW",
+          "UA",
+          "US",
+          "UY",
+          "VN",
+          "XK",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/753yeghJKIjYDaLbJB2ZW9"
+        },
+        "href": "https://api.spotify.com/v1/albums/753yeghJKIjYDaLbJB2ZW9",
+        "id": "753yeghJKIjYDaLbJB2ZW9",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2734750920678acd7b9bac8eaf5",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e024750920678acd7b9bac8eaf5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048514750920678acd7b9bac8eaf5",
+            "width": 64
+          }
+        ],
+        "name": "Barchords",
+        "release_date": "2012-01-01",
+        "release_date_precision": "day",
+        "total_tracks": 0,
+        "type": "album",
+        "uri": "spotify:album:753yeghJKIjYDaLbJB2ZW9"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/4C50EbCS11M0VbGyH3OfLt"
+          },
+          "href": "https://api.spotify.com/v1/artists/4C50EbCS11M0VbGyH3OfLt",
+          "id": "4C50EbCS11M0VbGyH3OfLt",
+          "name": "Bahamas",
+          "type": "artist",
+          "uri": "spotify:artist:4C50EbCS11M0VbGyH3OfLt"
+        }
+      ],
+      "available_markets": [
+        "US"
+      ],
+      "disc_number": 1,
+      "duration_ms": 236720,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "USUM71115233"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/25J4d78ESH2MgAJoIakB8O"
+      },
+      "href": "https://api.spotify.com/v1/tracks/25J4d78ESH2MgAJoIakB8O",
+      "id": "25J4d78ESH2MgAJoIakB8O",
+      "is_local": false,
+      "name": "Lost In The Light",
+      "popularity": 53,
+      "preview_url": null,
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:25J4d78ESH2MgAJoIakB8O"
+    }
+  ],
+  "seeds": [
+    {
+      "initialPoolSize": 628,
+      "afterFilteringSize": 628,
+      "afterRelinkingSize": 628,
+      "id": "acoustic",
+      "type": "GENRE",
+      "href": null
+    },
+    {
+      "initialPoolSize": 1000,
+      "afterFilteringSize": 626,
+      "afterRelinkingSize": 626,
+      "id": "afrobeat",
+      "type": "GENRE",
+      "href": null
+    }
+  ]
+}
